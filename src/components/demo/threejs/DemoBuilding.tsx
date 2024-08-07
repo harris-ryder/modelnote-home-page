@@ -1,8 +1,8 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from "@react-three/fiber"
 import { GLTF } from 'three-stdlib';
-import { Mesh, Material, Group, Vector3 } from 'three';
+import { Mesh, Material, Group } from 'three';
 import useDemoStore from '../DemoStore';
 
 type GLTFResult = GLTF & {
